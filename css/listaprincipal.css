@@ -1,0 +1,9 @@
+.limiter {
+    width: 1366px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+#peces {
+  border-radius: 15px 15px 0px 0px;
+}
