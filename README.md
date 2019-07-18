@@ -1,10 +1,9 @@
-# Animal-Crossing-Lista
- 
-## Lista de Peces, Bichos y Animales submarinos del Animal Crossing: New Leaf.
-### Uso personal sin lucro. Basada en guíasnintendo.com
+# Animal Crossing: New Leaf
+## Lista de Peces, Bichos y Animales submarinos
+Uso personal. Basada en *guíasnintendo.com*
 
 **TO-DO**
 - [x] All-in-one web list
 - [x] Images
-- [] ORDER every list by Price
-- [] Useful links (Characters, Events etc)
+- [ ] ORDER every list by Price
+- [ ] Useful links (Characters, Events etc)
