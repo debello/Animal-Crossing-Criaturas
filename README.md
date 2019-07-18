@@ -8,4 +8,7 @@ Uso personal. Basada en *guíasnintendo.com*
 - [x] Casilla Precio cerca de nombre
 - [ ] 2 Buttons redirecting above each list
 - [ ] ORDER every list by Price
+    - [ ] JSON for every List
+    - [ ] echo JSON
+    - [ ] echo JSON by Price
 - [ ] Useful links (Characters, Events etc)
