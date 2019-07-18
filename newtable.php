@@ -5,8 +5,9 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1" >	
 	<link rel="icon" type="image/png" href="images/icons/favicon.ico" >
-	<link rel="stylesheet" href="css/bootstrap.min.css" media="screen" type="text/css" >
-	<link rel="stylesheet" href="css/listaprincipal.css" media="screen" type="text/css" >
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="css\listaprincipal.css" rel="stylesheet" media="screen" type="text/css" />
+
 </head>
 
 <body>
@@ -14,7 +15,7 @@
 require_once 'arrayJSON.php';
 ?>
 <div class="container limiter">
-	<table id="peces" class="table" >
+	<table class="table" >
 		<thead class="table-dark">
 			<tr>
 				<th>Imagen</th>
