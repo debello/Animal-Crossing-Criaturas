@@ -27,7 +27,7 @@ p {
     font-size: 16px;
     font-family: Arial;
     font-weight: bold;
-    margin: 20px 10px 40px 10px;
+    margin: 4px 2px;
     cursor: pointer;
     border-radius: 8px;
     -moz-border-radius: 8px;
@@ -155,14 +155,8 @@ p {
     .modal-content {
         width: 100%;
     }
-    #container {
-        width: 100%;
-    }
-    #contenido {
-        width: 100%;
 
-    }
     body {
-        background-size: 700px 100%;
+        background-size: 100%;
     }
 }
