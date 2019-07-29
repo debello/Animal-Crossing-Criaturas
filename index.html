@@ -2,17 +2,36 @@
 <head>
 
 <link href="animalstyle1.css" rel="stylesheet" media="screen" type="text/css" />
+<link href="css/image1.css" rel="stylesheet" media="screen" type="text/css" />
 
 </head>
 <body>
+  <!-- 
+    Imagen Pequeña que se engrandece al hacer click
+    <img id="myImg" src="images/peinados_.png" alt="Snow" style="width:20%;max-width:100px"> -->  
+  <!-- The Modal -->
+  <!-- <div id="myModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="img01">
+    <div id="caption"></div>
+  </div> -->
+
 <div id="container">
     <div id="cookies"></div>
     <div id="contenido">
-        <p>Lista de criaturas para capturar en Animal Crossing: New Leaf.
+      
+        <p>Guía de Criaturas, Peinados... en Animal Crossing AC
         <br>
          Basada en la original de 
             <a href="http://www.guiasnintendo.com/0a_NINTENDO_3DS/animal_crossing_new_leaf/animal_crossing_new_leaf_sp/peces.html">guiasnintendo</a>.</p>
-      <table width="100%" border="1" cellpadding="2" cellspacing="0" class="Colorestabla">
+            <!-- <a href="http://www.elnauta.net/animal-crossing-leaf-la-peluqueria-de-chez-marilin-elige-tu-peinado/"> -->
+      <button class="button button2" onclick="showTable()"> Lista de Bichos  </button>
+      <button class="button button1" onclick="showTable2()">Peinados</a></button>
+      <div id="imagen-peinados" style="display:none">
+        <img src="images/peinados_.png">
+        <img src="images/colores_.png">
+      </div>
+      <table class="tabla-bichos" style="display:none" width="100%" border="1" cellpadding="2" cellspacing="0" class="Colorestabla">
       <tbody>
             <tr class="blanco">
               <th colspan="2" bgcolor="#000000"><strong>Insecto</strong></th>
@@ -809,7 +828,7 @@
         </table>
         <br />
         
-    <table border="1" cellpadding="2" cellspacing="0" class="Colorestabla">
+    <table class="tabla-bichos" style="display:none" border="1" cellpadding="2" cellspacing="0" class="Colorestabla">
             <tbody>
               <tr class="blanco">
                 <th colspan="2" bgcolor="#000000"><strong>Pez</strong></th>
@@ -1595,7 +1614,7 @@
         </table>
     <br />
     
-    <table width="100%" border="1" cellpadding="2" cellspacing="0" class="Colorestabla">
+    <table class="tabla-bichos" style="display:none" width="100%" border="1" cellpadding="2" cellspacing="0" class="Colorestabla">
             <tbody>
               <tr class="blanco">
                 <th colspan="2" bgcolor="#000000"><strong>Animal Submarino</strong></th>
@@ -1938,10 +1957,49 @@
               </tr>
             </tbody>
         </table>
-
- 
-</div>
-</div>
+        
+      </div>
+  </div>
+<script>
+  function showTable() {
+    let xtables = document.getElementsByClassName("tabla-bichos");
+    console.log(xtables);
+    // Object.keys(xtables).map(s => s.style.display === "none" ? s.style.display = "block" : s.style.display = "none");
+    // console.log(xtables);
+    for (var i = 0; i < xtables.length; i++) {
+      xtables[i].style.display === "none" ? xtables[i].style.display = "block" : xtables[i].style.display = "none";
+    }
+  }
+  function showTable2() {
+    let peinados = document.getElementById("imagen-peinados");
+    console.log(peinados);
+    // Object.keys(xtables).map(s => s.style.display === "none" ? s.style.display = "block" : s.style.display = "none");
+    // console.log(xtables);
+    peinados.style.display === "none" ? peinados.style.display = "block" : peinados.style.display = "none";
+  }
+</script>
+<script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
     
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById("myImg");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    // img.onclick = function() {
+    //   modal.style.display = "block";
+    //   modalImg.src = this.src;
+    //   captionText.innerHTML = this.alt;
+    //   modalImg.style.zIndex = 101;
+    // }
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    
+    // When the user clicks on <span> (x), close the modal
+    // span.onclick = function() { 
+    //   modal.style.display = "none";
+    // }
+</script>
 </body>
 </html>
