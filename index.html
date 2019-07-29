@@ -32,7 +32,8 @@
         <img src="images/peinados_.png">
         <img src="images/colores_.png">
       </div>
-      <table class="tabla-bichos" style="display:none" width="100%" border="1" cellpadding="2" cellspacing="0" class="Colorestabla">
+      <div id="tablas-bichos" style="display:none">
+      <table width="100%" border="1" cellpadding="2" cellspacing="0" class="Colorestabla">
       <tbody>
             <tr class="blanco">
               <th colspan="2" bgcolor="#000000"><strong>Insecto</strong></th>
@@ -829,7 +830,7 @@
         </table>
         <br />
         
-    <table class="tabla-bichos" style="display:none" border="1" cellpadding="2" cellspacing="0" class="Colorestabla">
+    <table border="1" cellpadding="2" cellspacing="0" class="Colorestabla">
             <tbody>
               <tr class="blanco">
                 <th colspan="2" bgcolor="#000000"><strong>Pez</strong></th>
@@ -1615,7 +1616,7 @@
         </table>
     <br />
     
-    <table class="tabla-bichos" style="display:none" width="100%" border="1" cellpadding="2" cellspacing="0" class="Colorestabla">
+    <table width="100%" border="1" cellpadding="2" cellspacing="0" class="Colorestabla">
             <tbody>
               <tr class="blanco">
                 <th colspan="2" bgcolor="#000000"><strong>Animal Submarino</strong></th>
@@ -1958,25 +1959,32 @@
               </tr>
             </tbody>
         </table>
-        
+        </div>
       </div>
   </div>
 <script>
+  let xtables = document.getElementById("tablas-bichos");
+  let peinados = document.getElementById("imagen-peinados");
   function showTable() {
-    let xtables = document.getElementsByClassName("tabla-bichos");
     console.log(xtables);
     // Object.keys(xtables).map(s => s.style.display === "none" ? s.style.display = "block" : s.style.display = "none");
     // console.log(xtables);
-    for (var i = 0; i < xtables.length; i++) {
-      xtables[i].style.display === "none" ? xtables[i].style.display = "block" : xtables[i].style.display = "none";
-    }
+    //for (var i = 0; i < xtables.length; i++) {
+    xtables.style.display === "none" ? xtables.style.display = "block" : xtables.style.display = "none";
+    peinados.style.display = "none";
+    
+    //}
   }
   function showTable2() {
-    let peinados = document.getElementById("imagen-peinados");
     console.log(peinados);
     // Object.keys(xtables).map(s => s.style.display === "none" ? s.style.display = "block" : s.style.display = "none");
     // console.log(xtables);
     peinados.style.display === "none" ? peinados.style.display = "block" : peinados.style.display = "none";
+    //if (xtables.style.display === "block") {
+     // console.log('xtables está en block');
+    xtables.style.display = "none";
+    console.log(xtables);
+    //}
   }
 </script>
 <script>
