@@ -68,8 +68,8 @@ a:hover       { color: #f00; text-decoration: none }
  /*	background-color: #EBEBEB;*/
 	position: relative;
 	z-index: 1;
-	/*
     height: 100%;
+	/*
     overflow: hidden;
     background-image: url(img/fondo_container.gif);
     */
