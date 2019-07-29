@@ -17,14 +17,46 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    font-family: Arial;
+    font-weight: bold;
     margin: 4px 2px;
     cursor: pointer;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    /* box-shadow: 2.5px 2.5px 0px 0px rgba(134, 134, 134, 0.5); */
+
+    -moz-box-shadow: 3px 4px 0px 0px rgba(134, 134, 134, 0.5);
+    -webkit-box-shadow: 3px 4px 0px 0px rgba(134, 134, 134, 0.5);
+    box-shadow: 3px 4px 0px 0px rgba(134, 134, 134, 0.5);
+    /* border: 1px solid rgba(134, 134, 134, 0.5); */
+    /* padding: 7px 25px; */
   }
-  
-  .button2 {background-color: #008CBA;} /* Blue */
-  .button3 {background-color: #f44336;} /* Red */ 
-  .button4 {background-color: #e7e7e7; color: black;} /* Gray */ 
-  .button5 {background-color: #555555;} /* Black */
+
+ .button1 {
+    background-color: rgb(83, 190, 87);
+    -moz-box-shadow: 3px  4px 0px 0px #00AF50;
+    -webkit-box-shadow: 3px  4px 0px 0px #00AF50;
+    box-shadow: 3px 4px 0px 0px #00AF50;
+    border: 1px solid rgb(0, 199, 90);
+ }
+ .button2 {
+    background-color: #008CBA;
+    -moz-box-shadow: 3px 4px 0px 0px rgb(0, 112, 150);
+    -webkit-box-shadow: 3px 4px 0px 0px rgb(0, 112, 150);
+    box-shadow: 3px 4px 0px 0px rgb(0, 112, 150);
+    border: 1px solid rgb(0, 158, 211);
+ }
+ .button3 {
+    background-color: #f44336;
+ } 
+ .button4 {
+    background-color: #e7e7e7; 
+    color: black;
+ } 
+ .button5 {
+    background-color: #555555;
+ } 
 
   /* END */
 

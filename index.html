@@ -1962,29 +1962,17 @@
         </div>
       </div>
   </div>
+
 <script>
   let xtables = document.getElementById("tablas-bichos");
   let peinados = document.getElementById("imagen-peinados");
   function showTable() {
-    console.log(xtables);
-    // Object.keys(xtables).map(s => s.style.display === "none" ? s.style.display = "block" : s.style.display = "none");
-    // console.log(xtables);
-    //for (var i = 0; i < xtables.length; i++) {
-    xtables.style.display === "none" ? xtables.style.display = "block" : xtables.style.display = "none";
-    peinados.style.display = "none";
-    
-    //}
+    xtables.style.display === "none" ? xtables.style.display = "block" : xtables.style.display = "none"
+    peinados.style.display = "none"
   }
   function showTable2() {
-    console.log(peinados);
-    // Object.keys(xtables).map(s => s.style.display === "none" ? s.style.display = "block" : s.style.display = "none");
-    // console.log(xtables);
-    peinados.style.display === "none" ? peinados.style.display = "block" : peinados.style.display = "none";
-    //if (xtables.style.display === "block") {
-     // console.log('xtables está en block');
-    xtables.style.display = "none";
-    console.log(xtables);
-    //}
+    peinados.style.display === "none" ? peinados.style.display = "block" : peinados.style.display = "none"
+    xtables.style.display = "none"
   }
 </script>
 <script>
