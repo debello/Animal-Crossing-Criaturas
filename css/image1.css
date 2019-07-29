@@ -1,16 +1,8 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: url(../images/catsearch.jpg);
-	background-position: top center;
-	background-repeat: no-repeat;
-    background-attachment: fixed;
-    /* background-size: auto 100%; */
 }
 
 /* BEGIN */
-p {
-    font-size: 18px;
-}
 .tabla-bichos {
     display:none;
     z-index: 100;
@@ -154,9 +146,5 @@ p {
 @media only screen and (max-width: 700px) {
     .modal-content {
         width: 100%;
-    }
-
-    body {
-        background-size: 100%;
     }
 }
