@@ -20,8 +20,8 @@
       <button class="button button2" onclick="showTable()"> Lista de Bichos  </button>
       <button class="button button1" onclick="showTable2()">Peinados</a></button>
       <div id="imagen-peinados" style="display:none">
-        <img src="images/peinados_.png" width="50%">
-        <img src="images/colores_.png" width="50%">
+        <img src="images/peinados_.png" width="100%">
+        <img src="images/colores_.png" width="100%">
       </div>
       <div id="tablas-bichos" style="display:none">
       <table width="100%" border="1" cellpadding="2" cellspacing="0" class="Colorestabla">
@@ -1954,7 +1954,7 @@
       </div>
   </div>
 
-<script>
+<script type="text/javascript">
   let xtables = document.getElementById("tablas-bichos");
   let peinados = document.getElementById("imagen-peinados");
   function showTable() {
@@ -1966,28 +1966,6 @@
     xtables.style.display = "none"
   }
 </script>
-<script>
-    // Get the modal
-    var modal = document.getElementById("myModal");
-    
-    // Get the image and insert it inside the modal - use its "alt" text as a caption
-    var img = document.getElementById("myImg");
-    var modalImg = document.getElementById("img01");
-    var captionText = document.getElementById("caption");
-    // img.onclick = function() {
-    //   modal.style.display = "block";
-    //   modalImg.src = this.src;
-    //   captionText.innerHTML = this.alt;
-    //   modalImg.style.zIndex = 101;
-    // }
-    
-    // Get the <span> element that closes the modal
-    var span = document.getElementsByClassName("close")[0];
-    
-    // When the user clicks on <span> (x), close the modal
-    // span.onclick = function() { 
-    //   modal.style.display = "none";
-    // }
-</script>
+
 </body>
 </html>
