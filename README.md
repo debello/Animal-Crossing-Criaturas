@@ -12,6 +12,10 @@ Uso personal. Basada en *guíasnintendo.com*
 
 - [ ] Mobile Responsive
     - [ ] Dat Table width
+- [ ] New table Revamp
+    - [ ] Add buttons
+    - [ ] Add Images
+    - [ ] Add mobile responsive
 - [ ] ORDER every list by Price
     - [x] JSON for every List
     - [x] echo JSON
