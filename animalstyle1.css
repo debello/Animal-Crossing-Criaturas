@@ -63,7 +63,7 @@ a:hover       { color: #f00; text-decoration: none }
 
 
 #container {
-	width: 100%;
+	width: 1000px;
 	margin: auto;
  /*	background-color: #EBEBEB;*/
 	position: relative;
@@ -93,7 +93,7 @@ a:hover       { color: #f00; text-decoration: none }
 }
 
 #header {
-	width: 80%;  /* esto crear un contenedor con el 80% del ancho del navegador */
+	width: 1000px;  /* esto crear un contenedor con el 80% del ancho del navegador */
 	height: 160px;
 	
 	position: relative;
@@ -126,7 +126,7 @@ a:hover       { color: #f00; text-decoration: none }
 #contenido {
 	position: absolute;
 	color: #000000;
-	width: 100%;
+	width: 745px;
 	height: 100%;
     left: 13%;
     
