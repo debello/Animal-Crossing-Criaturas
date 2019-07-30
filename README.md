@@ -20,4 +20,5 @@ Uso personal. Basada en *guíasnintendo.com*
     - [x] JSON for every List
     - [x] echo JSON
     - [ ] echo JSON by Price
-- [ ] Useful links (Characters, Events etc)
+
+- [x] ~~Useful links (Characters, Events etc)~~
