@@ -65,74 +65,28 @@ a:hover       { color: #f00; text-decoration: none }
 #container {
 	width: 1000px;
 	margin: auto;
- /*	background-color: #EBEBEB;*/
+ 	/*	background-color: #EBEBEB;*/
 	position: relative;
-	z-index: 1;
+	/* z-index: 1; */
     height: 100%;
 	/*
     overflow: hidden;
     background-image: url(img/fondo_container.gif);
-    */
 	box-shadow:0px 2px 5px #181818;
-}
-
-#cookies {
-
-	position: relative;
-
-}
-
-#buscador {
-	width: 1000px;  /* esto crear un contenedor con el 80% del ancho del navegador */
-	height: 38px;
-	
-	position: relative;
-	background-image: url(img/fondo_buscador.gif);
-	margin-top: -17px;
-
-}
-
-#header {
-	width: 1000px;  /* esto crear un contenedor con el 80% del ancho del navegador */
-	height: 160px;
-	
-	position: relative;
-	float: right;
-	right: 0px;
-}
-#menu {
-	
-	position: relative;
-	float: left;
-	visibility: visible;
-	overflow: visible;
-}
-#menuint {
-	
-	position: relative;
-	float: left;
-	background-color: #F69;
-}
-#sidebar1 {
-	font-style:italic;
-	color: #006400;
-	font-weight: bold;
-	width: 220px;
-	height: 320px;
-	margin-left: 10px;
-	overflow: hidden;
+    */
 }
 
 #contenido {
 	position: absolute;
-	color: #000000;
 	width: 745px;
 	height: 100%;
     left: 13%;
     
-    /**/
-
+	
+	/*
+	color: #000000;
 	background-color: #FFFFFF;
+	*/
 }
 
 #tablatitu {
@@ -143,43 +97,6 @@ a:hover       { color: #f00; text-decoration: none }
 }
 
 
-#coluarri {
-	padding-top:10px;
-    padding-right:10px;
-    padding-left:10px;
-    padding-bottom:10px;
-}
-
-#coluizq {
-	padding-top:5px;
-	padding-right:5px;
-	padding-left:15px;
-	padding-bottom:0px;
-	margin-top: 170px;
-}
-
-#coludere {
-	padding-top:5px;
-    padding-right:5px;
-    padding-left:10px;
-    padding-bottom:0px;
-}
-
-#coluaba {
-	padding-top:5px;
-    padding-right:10px;
-    padding-left:10px;
-    padding-bottom:10px;
-}
-
-#volver {
-	padding-right:10px;
-    padding-left:10px;
-}
-#siguiente {
-	padding-right:10px;
-    padding-left:10px;
-}
 
 
 .clearfloat { /* esta clase debe colocarse en un elemento div o break y debe ser el ltimo elemento antes del cierre de un contenedor que deba incluir completamente a sus elementos flotantes hijos */
@@ -188,30 +105,3 @@ a:hover       { color: #f00; text-decoration: none }
   font-size: 1px;
   line-height: 0px;
 }
-.pasar_raton {
-	font-size: 13px;
-	float: left;
-	margin: 0px;
-	width: 15px;
-	padding: 0px;
-	border: 0px solid;
-	height: 133px;
-	position: absolute;
-	margin-left: 5px;
-	margin-top: 135px;
-} 
-
-.div_a_mostrar {
-	position: absolute;
-	z-index: 500;
-	display: none;
-	float: left;
-	margin: 0px;
-	background: #f0eeef;
-	width: 220px;
-	padding: 10px;
-	border: 1px solid #C8C8C8;
-	height: 397px;
-	-moz-box-shadow: 4px 4px 10px #ccc;
-	margin-left: 5px;
-} 
