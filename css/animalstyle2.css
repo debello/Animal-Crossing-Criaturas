@@ -49,22 +49,13 @@ a:hover       { color: #f00; text-decoration: none }
 
 
 #container {
-	width: 1000px;
 	margin: auto;
-
 	position: relative;
-
-    height: 100%;
-
 }
 
-table {
-	width: 100%;
-}
 
-#imagen-peinados img {
-	width: 100%;
-}
+
+
 
 /* BEGIN */
 p {
@@ -84,7 +75,7 @@ p {
     font-size: 16px;
     font-family: Arial;
     font-weight: bold;
-    margin: 20px 0px 20px 0px;
+    margin: 20px 10px 20px 0px;
     cursor: pointer;
     border-radius: 8px;
     -moz-border-radius: 8px;
@@ -154,20 +145,17 @@ tbody {
 	#container {
 		width: 100%;
 	}
-	#contenido {
-		width: 100%; 
-		left: 2.5vw;
-	}
-	#contenido p {
-		font-size: 15px;
-	}
 
-	#imagen-peinados img {
+	.limiter {
 		width: 100%;
+
+	}
+	#imagen-peinados img {
+		width: 85%;
 	}
 
 	.button {
-		padding: 10px 19px;
-		font-size: 20px;
+		padding: 10px 10px;
+		font-size: 18px;
 	}
   }
