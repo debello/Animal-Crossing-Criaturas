@@ -50,19 +50,67 @@ require_once 'arrayJSON.php';
 				</tr>
 			</thead>
 
-			<?php for ($i = 0; $i<$sizeRow; $i++) {?>
-			<tbody class="table-dark">
-				<tr>
-					<td><img src='<?php echo $peces["Imagen"][$i];?>' width="50px" /></td>
-					<td><?php echo $peces["Insecto"][$i];?></td>
-					<td><?php echo $peces["Bayas"][$i];?></td>
-					<td><?php echo $peces["Ubicacion"][$i];?></td>
-					<td><?php echo $peces["Meses"][$i];?></td>
-					<td><?php echo $peces["Horas"][$i];}?></td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
+		<?php for ($i = 0; $i<$sizeRowInsectos; $i++) {?>
+		<tbody class="table-dark">
+			<tr>
+				<td><img src='<?php echo $insectos["Imagen"][$i];?>' width="50px" /></td>
+				<td><?php echo $insectos["Insecto"][$i];?></td>
+				<td><?php echo $insectos["Bayas"][$i];?></td>
+				<td><?php echo $insectos["Ubicacion"][$i];?></td>
+				<td><?php echo $insectos["Meses"][$i];?></td>
+				<td><?php echo $insectos["Horas"][$i];}?></td>
+			</tr>
+		</tbody>
+	</table>
+	<table class="table" >
+		<thead class="table-dark">
+			<tr>
+				<th>Imagen</th>
+				<th>Pez</th>
+				<th>Bayas</th>
+				<th>Ubicacion</th>
+				<th>Meses</th>
+				<th>Horas</th>
+			</tr>
+		</thead>
+
+		<?php for ($i = 0; $i<$sizeRowPeces; $i++) {?>
+		<tbody class="table-dark">
+			<tr>
+				<td><img src='<?php echo $peces["Imagen"][$i];?>' width="50px" /></td>
+				<td><?php echo $peces["Pez"][$i];?></td>
+				<td><?php echo $peces["Bayas"][$i];?></td>
+				<td><?php echo $peces["Ubicacion"][$i];?></td>
+				<td><?php echo $peces["Meses"][$i];?></td>
+				<td><?php echo $peces["Horas"][$i];}?></td>
+			</tr>
+		</tbody>
+	</table>
+	</table>
+	<table class="table" >
+		<thead class="table-dark">
+			<tr>
+				<th>Imagen</th>
+				<th>Animal Submarino</th>
+				<th>Bayas</th>
+				<th>Tamaño Sombra</th>
+				<th>Meses</th>
+				<th>Horas</th>
+			</tr>
+		</thead>
+
+		<?php for ($i = 0; $i<$sizeRowSubmarinos; $i++) {?>
+		<tbody class="table-dark">
+			<tr>
+				<td><img src='<?php echo $submarinos["Imagen"][$i];?>' width="50px" /></td>
+				<td><?php echo $submarinos["Animal-Submarino"][$i];?></td>
+				<td><?php echo $submarinos["Bayas"][$i];?></td>
+				<td><?php echo $submarinos["Tamaño-sombra"][$i];?></td>
+				<td><?php echo $submarinos["Meses"][$i];?></td>
+				<td><?php echo $submarinos["Horas"][$i];}?></td>
+			</tr>
+		</tbody>
+	</table>
 </div>
 
 <script type="text/javascript">
