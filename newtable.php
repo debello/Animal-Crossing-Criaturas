@@ -38,17 +38,17 @@ require_once 'arrayJSON.php';
 		<img src="images/colores_.png">
 	</div>
 	<div id="tablas-bichos" style="display:none">
-		<table class="table" >
-			<thead class="table-dark">
-				<tr>
-					<th>Imagen</th>
-					<th>Insecto</th>
-					<th>Bayas</th>
-					<th>Ubicacion</th>
-					<th>Meses</th>
-					<th>Horas</th>
-				</tr>
-			</thead>
+	<table class="table" >
+		<thead class="table-dark">
+			<tr>
+				<th>Imagen</th>
+				<th>Insecto</th>
+				<th>Bayas</th>
+				<th>Ubicacion</th>
+				<th>Meses</th>
+				<th>Horas</th>
+			</tr>
+		</thead>
 
 		<?php for ($i = 0; $i<$sizeRowInsectos; $i++) {?>
 		<tbody class="table-dark">
@@ -85,7 +85,6 @@ require_once 'arrayJSON.php';
 				<td><?php echo $peces["Horas"][$i];}?></td>
 			</tr>
 		</tbody>
-	</table>
 	</table>
 	<table class="table" >
 		<thead class="table-dark">
