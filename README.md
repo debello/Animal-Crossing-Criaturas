@@ -18,6 +18,7 @@ Uso personal. Basada en *guíasnintendo.com*
 - [x] ~~ORDER every list by Price
 - [x] ~~Useful links (Characters, Events etc)~~
 
+- [ ] 3 table's width equal
 - [ ] Table mobile-responsive (3x3)
 - [ ] Hair-guide image popup (not button)
 - [ ] Features
